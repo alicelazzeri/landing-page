@@ -15,15 +15,22 @@
           <a class="navbar-brand" href="#">
             <img class="navbarLogo" src="./assets/images/Group 324.svg" alt="Lotrèk Logo" />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-            <span class="btn-close d-none"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto navLinks">
-              <a href="#">News</a>
-              <a href="#">Products</a>
-              <a href="#">About</a>
+              <a href="#" class="nav-link">News</a>
+              <a href="#" class="nav-link">Products</a>
+              <a href="#" class="nav-link">About</a>
             </div>
           </div>
         </div>
@@ -35,7 +42,7 @@
       <section class="backgroundImage">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 firstHeader">
+            <div class="col-12 col-md-8 firstHeader">
               <h6 class="sectionUptitle">LOREM IPSUM</h6>
               <h1 class="sectionTitle">Suspendisse blandit sollicitudin enim, a sagittis consectetur.</h1>
               <p class="sectionSubtitle mb-0">Class aptent taciti sociosqu ad litora torquen.</p>
@@ -50,7 +57,7 @@
           <div class="row text-center">
             <div class="col-12">
               <h6 class="sectionUptitle">LOREM IPSUM</h6>
-              <h1 class="sectionTitle mb-0">Ut laoreet posuere sem</h1>
+              <h1 class="sectionTitle secondSectionTitle mb-0">Ut laoreet posuere sem</h1>
               <p class="sectionSubtitle mb-5">at viverra justo viverra sed</p>
             </div>
           </div>
@@ -103,7 +110,7 @@
       <section class="finalSection">
         <div class="container">
           <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <h6 class="sectionUptitle">MAECENAS ELEIFEND,</h6>
               <h1 class="textTitle mb-3">Quisque porttitor nunc elit.</h1>
               <p class="textDescription">
@@ -123,14 +130,17 @@
       </section>
     </main>
 
+    <!-- Footer -->
     <footer>
       <div class="footerContainer">
         <div class="footerData">
           <div class="footerData1">
             <img class="footerLogo" src="./assets/images/Group 323.svg" alt="Lotrèk Logo" />
-            <p class="fw-bold mt-3 mb-0">Lorem SpA</p>
-            <p class="mb-0">Via Rossi, 42 SP 23 Km 1.300</p>
-            <p>0000 Milano (Mi) ITALY</p>
+            <div>
+              <p class="fw-bold mt-3 mb-0">Lorem SpA</p>
+              <p class="mb-0">Via Rossi, 42 SP 23 Km 1.300</p>
+              <p>0000 Milano (Mi) ITALY</p>
+            </div>
           </div>
           <div class="footerSubGroup">
             <div class="footerData2">
